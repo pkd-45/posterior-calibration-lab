@@ -1,0 +1,94 @@
+{
+  "note": "Synthetic study of nuisance-parameter handling. The forward model is a deliberately minimal stand-in and makes no astrophysical claim.",
+  "nominal_design": {
+    "n_points": 32,
+    "half_width": 4.0,
+    "sigma": 0.25,
+    "degeneracy_index": 0.6551613619407557
+  },
+  "n_simulations": 4000,
+  "seed": 20260824,
+  "exact": {
+    "rmse": 0.12656334074126108,
+    "bias": 0.002084862674775303,
+    "correlation": 0.992236124323948,
+    "sbc_uniformity_pvalue": 0.1445565952956583,
+    "coverage_at_0.90": 0.897,
+    "max_coverage_error": 0.011499999999999955
+  },
+  "plugin": {
+    "rmse": 0.14060941718808653,
+    "bias": 0.002265551892182218,
+    "correlation": 0.9904082714461708,
+    "sbc_uniformity_pvalue": 0.0,
+    "coverage_at_0.90": 0.73875,
+    "max_coverage_error": 0.17674999999999996
+  },
+  "rmse_ratio_plugin_over_exact": 1.1109806075326383,
+  "sweep": [
+    {
+      "half_width": 2.6,
+      "n_wing_points": 2,
+      "degeneracy_index": 0.8008169809755704,
+      "rmse_ratio": 1.7266806388601112,
+      "coverage90_exact": 0.9066666666666666,
+      "coverage90_plugin": 0.43666666666666665
+    },
+    {
+      "half_width": 2.8,
+      "n_wing_points": 4,
+      "degeneracy_index": 0.7748094383171977,
+      "rmse_ratio": 1.3673761608377435,
+      "coverage90_exact": 0.9046666666666666,
+      "coverage90_plugin": 0.5453333333333333
+    },
+    {
+      "half_width": 3.0,
+      "n_wing_points": 4,
+      "degeneracy_index": 0.7511919268982864,
+      "rmse_ratio": 1.3885629843417597,
+      "coverage90_exact": 0.9026666666666666,
+      "coverage90_plugin": 0.58
+    },
+    {
+      "half_width": 3.25,
+      "n_wing_points": 6,
+      "degeneracy_index": 0.7236445029019277,
+      "rmse_ratio": 1.23806082375704,
+      "coverage90_exact": 0.9093333333333333,
+      "coverage90_plugin": 0.6486666666666666
+    },
+    {
+      "half_width": 3.5,
+      "n_wing_points": 8,
+      "degeneracy_index": 0.6986148977934991,
+      "rmse_ratio": 1.1684651867212779,
+      "coverage90_exact": 0.9073333333333333,
+      "coverage90_plugin": 0.686
+    },
+    {
+      "half_width": 4.0,
+      "n_wing_points": 12,
+      "degeneracy_index": 0.6551613619407557,
+      "rmse_ratio": 1.0884925042894356,
+      "coverage90_exact": 0.8986666666666666,
+      "coverage90_plugin": 0.75
+    },
+    {
+      "half_width": 4.5,
+      "n_wing_points": 16,
+      "degeneracy_index": 0.6188173462922164,
+      "rmse_ratio": 1.0796069320632555,
+      "coverage90_exact": 0.908,
+      "coverage90_plugin": 0.778
+    },
+    {
+      "half_width": 5.0,
+      "n_wing_points": 20,
+      "degeneracy_index": 0.5879016186022273,
+      "rmse_ratio": 1.0577515550704486,
+      "coverage90_exact": 0.91,
+      "coverage90_plugin": 0.796
+    }
+  ]
+}
